@@ -10,7 +10,6 @@ fun reverseString(stringInput: String): String {
     return reversedString
 }
 
-const val newString = "myOnlyGhana.com"
 fun newReverseFunction(stringInput: String): String {
     var storeReversedString = "" // is empty because we haven't added any values yet
     /*i would start at the last index and go down to 0 first index*/
@@ -24,6 +23,7 @@ fun newReverseFunction(stringInput: String): String {
 
 
 fun main() {
-    reverseString(string)
+    print("Enter your words to reverse")
+    val newString = readLine() ?: ""
     newReverseFunction(newString)
 }
