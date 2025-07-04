@@ -33,5 +33,5 @@ This project is a personal collection of **Data Structures and Algorithms (DSA)*
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-dsa-repo.git
-cd your-dsa-repo
+git clone 
+https://github.com/a-certain-dude/DSA
