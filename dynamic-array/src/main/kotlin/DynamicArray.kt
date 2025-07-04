@@ -16,6 +16,8 @@ class DynamicArray(
             array = tempArray
             capacity = capacity * 2 /*🤷‍♀️*/
         }
+     array[length]=word
+     length++
     }
 
 }
