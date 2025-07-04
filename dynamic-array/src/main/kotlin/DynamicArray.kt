@@ -20,6 +20,13 @@ class DynamicArray(
      length++
     }
 
+    fun replace(index: Int,word: String){
+        if (index>=0 && index < length)
+            array[index] = word
+        else
+            print("IndexOutOfBound")
+    }
+
 }
 
 
