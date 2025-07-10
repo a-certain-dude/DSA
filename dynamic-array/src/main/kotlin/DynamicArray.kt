@@ -26,6 +26,11 @@ class DynamicArray(
         else
             print("IndexOutOfBound")
     }
+    fun pop(){
+        if (length > 0){
+            length--
+        }
+    }
 
 }
 
